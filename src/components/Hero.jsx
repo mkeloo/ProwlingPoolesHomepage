@@ -19,7 +19,7 @@ const Hero = () => {
           <div className="px-4 lg:w-[55%]">
             <div className="h-full px-6 pt-24 pb-24 rounded-xl overflow-hidden text-center relative">
               <div
-                className="absolute inset-0 bg-red-800 opacity-65 rounded-xl"
+                className="absolute inset-0 bg-red-800 opacity-55 rounded-xl"
                 style={{
                   backgroundImage: `url(${logo})`,
                   backgroundSize: 'contain',
@@ -28,11 +28,11 @@ const Hero = () => {
                 }}
               ></div>
               <div className="relative">
-                <h1 className="block font-mono font-bold text-6xl leading-none text-black underline  ">
+                <h1 className="block font-mono font-bold text-6xl leading-none text-slate-200 underline">
                   Discover Insights,{' '}
                   <span className="block">Elevate Your Game.</span>
                 </h1>
-                <p className="leading-relaxed text-4xl  ">
+                <p className="leading-relaxed text-4xl text-gray-200 ">
                   Dive deep into the analytics of basketball and emerge with a
                   winning edge.
                 </p>
